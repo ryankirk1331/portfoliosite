@@ -1,3 +1,11 @@
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 .slides-navigation .previous,
 .slides-navigation .next {
     width: 47px;
@@ -8,13 +16,13 @@
 
 .slides-navigation a.previous {
     left: 20px;
-    background-image: url(https://img.icons8.com/color/2x/left-squared.png);
+    background-image: url(../Images/Icons/whiteprevious.jpeg.png);
     
 }
 
 .slides-navigation a.next {
     right: 20px;
-    background-image: url(https://img.icons8.com/color/2x/right-squared.png);
+    background-image: url(../Images/Icons/whiteforward.jpeg.png);
 }
 
 .titleMessage {
@@ -36,10 +44,10 @@
 
 .titleMessage .heading .main {
     font-size: 50px;
-    color: lime;
+    color: whitesmoke;
 }
 
 .titleMessage .heading .sub {
     font-size: 23px;
-    color: cyan;
+    color: lime;
 }
