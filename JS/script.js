@@ -12,8 +12,6 @@ $(document).ready(function() {
         showCursor: false
     });
 
-
-
     $('.owl-carousel').owlCarousel({
         loop:true,
         items: 4,
@@ -44,5 +42,5 @@ $(document).ready(function() {
             $(this.el).find('.percent').text(Math.round(percent));
         }
     });
-
+    
 });

@@ -72,3 +72,66 @@ body {
     background-color: #1B9CFC;
     color: whitesmoke;
 }
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color: black;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after {
+    content: '%';
+}
+
+.skill .icon1 {
+    margin: 0 auto;
+    padding: 50px 50px;
+    background-image: url(../Images/Icons/htmls.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill .icon2 {
+    margin: 0 auto;
+    padding: 50px 50px;
+    background-image: url(../Images/Icons/cssxs.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill .icon3 {
+    margin: 0 auto;
+    padding: 50px 50px;
+    background-image: url(../Images/Icons/javascriptxs.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.skill .icon4 {
+    margin: 0 auto;
+    padding: 50px 50px;
+    background-image: url(../Images/Icons/nodexs.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
