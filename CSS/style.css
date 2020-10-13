@@ -189,39 +189,12 @@ body {
     color: #1e272e;
 }
 
-.squareContent .statIcons1,
-.squareContent .statIcons2 
-.squareContent .statIcons3 {
-    display: inline-block;
-    margin: auto;
-}
 .squareContent .statIcons1 {
     margin: 0 auto;
-    padding: 12px 12px;
-    background-image: url(../Images/Icons/htmls.jpeg.png);
-    background-size: 25px;
-    background-position: center;
+    padding: 39px 39px;
+    background-image: url(../Images/Icons/reactsm.jpeg.png);
     background-repeat: no-repeat;
-}
-
-
-.squareContent .statIcons2 {
-    margin: 0 auto;
-    padding: 12px 12px;
-    background-image: url(../Images/Icons/cssxs.jpeg.png);
-    background-size: 25px;
     background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.squareContent .statIcons3 {
-    margin: 0 auto;
-    padding: 12px 12px;
-    background-image: url(../Images/Icons/javascriptxs.jpeg.png);
-    background-size: 25px;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .squareContent .ssIcon1{
