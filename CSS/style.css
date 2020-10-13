@@ -135,3 +135,107 @@ body {
     background-position: center;
 }
 
+.squareitem {
+    margin: 30px;
+    position: relative;
+}
+
+.squareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #1e272e;
+    border-top: none;
+}
+
+.squareInnerContainer:before, 
+.squareInnerContainer:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: 2px solid #1e272e;
+}
+
+.squareInnerContainer:before {    
+    right: 0px;
+}
+
+.squareInnerContainer:after {
+     left: 0px;
+}
+
+.squareContent h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #808e9b;
+}
+
+.squareContent h3 {
+    font-weight: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.squareIcon {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #1e272e;
+}
+
+.squareContent .statIcons1,
+.squareContent .statIcons2 
+.squareContent .statIcons3 {
+    display: inline-block;
+    margin: auto;
+}
+.squareContent .statIcons1 {
+    margin: 0 auto;
+    padding: 12px 12px;
+    background-image: url(../Images/Icons/htmls.jpeg.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.squareContent .statIcons2 {
+    margin: 0 auto;
+    padding: 12px 12px;
+    background-image: url(../Images/Icons/cssxs.jpeg.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.squareContent .statIcons3 {
+    margin: 0 auto;
+    padding: 12px 12px;
+    background-image: url(../Images/Icons/javascriptxs.jpeg.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.squareContent .ssIcon1{
+    margin: 0 auto;
+    padding: 39px 39px;
+    background-image: url(../Images/Icons/nodejssm.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.squareContent .ssIcon2{
+    margin: 0 auto;
+    padding: 39px 39px;
+    background-image: url(../Images/Icons/mongosm.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
