@@ -214,7 +214,12 @@ body {
     background-position: center;
 }
 
+.contactSection {
+    display: flex;
+}
+
 .contactButton {
+    
     color: whitesmoke;
     padding: 15px 20px;
     display: inline-block;
@@ -228,6 +233,24 @@ body {
     color: #808e9b;
     background-color: whitesmoke;
 }
+
+.contactSection i {
+        
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+
+i#social {
+    background-color: #808e9b;
+    color: #1e272e;
+}
+
+i#social:hover {
+    font-size: 2rem;
+    color: white;
+}
+
+
 
 .filter a {
     color: #808e9b;
@@ -392,6 +415,10 @@ body {
     color: whitesmoke;
 }
 
+#navigation li a:hover {
+    color: #1e272e;
+}
+
 .navbar-brand,
 .navbar-brand:hover {
     color: #1e272e;
@@ -407,6 +434,14 @@ body {
     position: fixed;
     top: 0;
 }
+
+ 
+div.social {
+    display: flex;
+    align-items: center;
+}
+
+
 
 .loader {
     width: 100%;
